@@ -1,0 +1,4 @@
+# Codex worktree 需要但被 .gitignore 忽略的文件
+# 只带配置文件，不带数据集本体：neu_det.yaml 里的 path 是绝对路径，
+# 直接指向原仓库的 datasets/NEU-DET，worktree 共用同一份数据，零拷贝。
+datasets/neu_det.yaml
